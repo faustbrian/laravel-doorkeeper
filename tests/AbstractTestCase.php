@@ -9,19 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace DraperStudio\Doorkeeper\Contracts;
+namespace DraperStudio\Tests\Doorkeeper;
+
+use GrahamCampbell\TestBench\AbstractPackageTestCase;
 
 /**
- * Interface ListenerContract.
+ * This is the abstract test case class.
  *
  * @author DraperStudio <hello@draperstudio.tech>
  */
-interface ListenerContract
+abstract class AbstractTestCase extends AbstractPackageTestCase
 {
-    /**
-     * @param $model
-     *
-     * @return mixed
-     */
-    public function compare($model);
+    //
 }
