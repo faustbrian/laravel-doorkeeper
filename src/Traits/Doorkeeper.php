@@ -20,9 +20,6 @@ use DraperStudio\Doorkeeper\Listeners\DoorkeeperListener;
  */
 trait Doorkeeper
 {
-    /**
-     *
-     */
     public static function bootDoorkeeper()
     {
         static::loaded(DoorkeeperListener::class.'@compare');
