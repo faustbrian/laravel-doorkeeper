@@ -12,9 +12,6 @@ $ composer require faustbrian/laravel-doorkeeper
 
 ## Usage
 
-
-## Example
-
 #### Model
 ``` php
 <?php
