@@ -20,7 +20,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace BrianFaust\Doorkeeper\Listeners;
+namespace BrianFaust\Doorkeeper;
 
 use BrianFaust\Doorkeeper\Contracts\ListenerContract;
 

@@ -20,7 +20,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace BrianFaust\Doorkeeper\Traits;
+namespace BrianFaust\Doorkeeper;
 
 use BrianFaust\Doorkeeper\Listeners\DoorkeeperListener;
 
@@ -64,7 +64,7 @@ trait Doorkeeper
      *
      * @return mixed
      */
-    public function maxed($key = null)
+    public function maxed($key = null): bool
     {
         if ($key !== null) {
             return session()->has('doorkeeper_reached_'.$key);
@@ -78,7 +78,7 @@ trait Doorkeeper
      *
      * @return mixed
      */
-    public function current($key = null)
+    public function current($key = null): ?int
     {
         if ($key !== null) {
             return session()->get('doorkeeper_count_'.$key);
@@ -121,7 +121,7 @@ trait Doorkeeper
      *
      * @return bool
      */
-    public function passes($key = null)
+    public function passes($key = null): bool
     {
         return !$this->maxed($key);
     }
@@ -131,7 +131,7 @@ trait Doorkeeper
      *
      * @return mixed
      */
-    public function fails($key = null)
+    public function fails($key = null): bool
     {
         return $this->maxed($key);
     }
