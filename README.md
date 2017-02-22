@@ -1,7 +1,9 @@
 # Laravel Doorkeeper
 
+I would appreciate you taking the time to look at my [Patreon](https://www.patreon.com/faustbrian) and considering to support me if I'm saving you some time with my work.
 
 This package counts the amount of records on a relationship and compares them with a given set of limits. This can be useful to determine if a user has reached the limit of files he can upload or something similar.
+
 ## Installation
 
 Require this package, with [Composer](https://getcomposer.org/), in the root directory of your project.
