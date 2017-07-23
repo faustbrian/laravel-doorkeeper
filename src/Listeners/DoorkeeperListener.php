@@ -41,7 +41,7 @@ class DoorkeeperListener implements ListenerContract
         // Check each relation and limitation
         $overallCount = 0;
         foreach ($limits as $relation => $limit) {
-            if (!$model->$relation) {
+            if (! $model->$relation) {
                 continue;
             }
 
