@@ -114,7 +114,7 @@ trait Doorkeeper
      */
     public function passes($key = null): bool
     {
-        return ! $this->maxed($key);
+        return !$this->maxed($key);
     }
 
     /**
