@@ -1,5 +1,10 @@
 # Laravel Doorkeeper
 
+[![Build Status](https://img.shields.io/travis/faustbrian/Laravel-Doorkeeper/master.svg?style=flat-square)](https://travis-ci.org/faustbrian/Laravel-Doorkeeper)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/faustbrian/laravel-doorkeeper.svg?style=flat-square)]()
+[![Latest Version](https://img.shields.io/github/release/faustbrian/Laravel-Doorkeeper.svg?style=flat-square)](https://github.com/faustbrian/Laravel-Doorkeeper/releases)
+[![License](https://img.shields.io/packagist/l/faustbrian/Laravel-Doorkeeper.svg?style=flat-square)](https://packagist.org/packages/faustbrian/Laravel-Doorkeeper)
+
 This package counts the amount of records on a relationship and compares them with a given set of limits. This can be useful to determine if a user has reached the limit of files he can upload or something similar.
 
 ## Installation
@@ -141,7 +146,7 @@ $ phpunit
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to Brian Faust at hello@brianfaust.me. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to hello@brianfaust.me. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 
