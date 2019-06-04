@@ -1,12 +1,12 @@
 {
-    "name": "faustbrian/laravel-doorkeeper",
+    "name": "artisanry/doorkeeper",
     "description": "Compare the amount of relations with specified rules.",
-    "keywords": ["laravel", "framework", "Laravel-DoorKeeper", "Laravel DoorKeeper", "Brian Faust", "faustbrian"],
+    "keywords": ["laravel", "framework", "Laravel-DoorKeeper", "Laravel DoorKeeper"],
     "license": "MIT",
     "authors": [{
         "name": "Brian Faust",
-        "email": "hello@brianfaust.me",
-        "homepage": "https://brianfaust.me"
+        "email": "hello@basecode.sh",
+        "homepage": "https://basecode.sh"
     }],
     "require": {
         "php": "^7.1",
@@ -20,12 +20,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BrianFaust\\Doorkeeper\\": "src/"
+            "Artisanry\\Doorkeeper\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BrianFaust\\Tests\\Doorkeeper\\": "tests"
+            "Artisanry\\Tests\\Doorkeeper\\": "tests"
         }
     },
     "config": {
@@ -38,10 +38,10 @@
         },
         "laravel": {
             "providers": [
-                "BrianFaust\\Doorkeeper\\DoorkeeperServiceProvider"
+                "Artisanry\\Doorkeeper\\DoorkeeperServiceProvider"
             ],
             "aliases": {
-                "Doorkeeper": "BrianFaust\\Doorkeeper\\Facades\\Doorkeeper"
+                "Doorkeeper": "Artisanry\\Doorkeeper\\Facades\\Doorkeeper"
             }
         }
     },

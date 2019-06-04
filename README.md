@@ -1,9 +1,9 @@
 # Laravel Doorkeeper
 
-[![Build Status](https://img.shields.io/travis/faustbrian/Laravel-Doorkeeper/master.svg?style=flat-square)](https://travis-ci.org/faustbrian/Laravel-Doorkeeper)
-[![PHP from Packagist](https://img.shields.io/packagist/php-v/faustbrian/laravel-doorkeeper.svg?style=flat-square)]()
-[![Latest Version](https://img.shields.io/github/release/faustbrian/Laravel-Doorkeeper.svg?style=flat-square)](https://github.com/faustbrian/Laravel-Doorkeeper/releases)
-[![License](https://img.shields.io/packagist/l/faustbrian/Laravel-Doorkeeper.svg?style=flat-square)](https://packagist.org/packages/faustbrian/Laravel-Doorkeeper)
+[![Build Status](https://img.shields.io/travis/artisanry/Doorkeeper/master.svg?style=flat-square)](https://travis-ci.org/artisanry/Doorkeeper)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/artisanry/doorkeeper.svg?style=flat-square)]()
+[![Latest Version](https://img.shields.io/github/release/artisanry/Doorkeeper.svg?style=flat-square)](https://github.com/artisanry/Doorkeeper/releases)
+[![License](https://img.shields.io/packagist/l/artisanry/Doorkeeper.svg?style=flat-square)](https://packagist.org/packages/artisanry/Doorkeeper)
 
 This package counts the amount of records on a relationship and compares them with a given set of limits. This can be useful to determine if a user has reached the limit of files he can upload or something similar.
 
@@ -12,7 +12,7 @@ This package counts the amount of records on a relationship and compares them wi
 Require this package, with [Composer](https://getcomposer.org/), in the root directory of your project.
 
 ``` bash
-$ composer require faustbrian/laravel-doorkeeper
+$ composer require artisanry/doorkeeper
 ```
 
 ## Usage
@@ -22,8 +22,8 @@ $ composer require faustbrian/laravel-doorkeeper
 <?php
 namespace App;
 
-use BrianFaust\Doorkeeper\Traits\Doorkeeper;
-use BrianFaust\Doorkeeper\Contracts\DoorkeeperContract;
+use Artisanry\Doorkeeper\Traits\Doorkeeper;
+use Artisanry\Doorkeeper\Contracts\DoorkeeperContract;
 
 class User extends Model implements DoorkeeperContract
 {
@@ -146,7 +146,7 @@ $ phpunit
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to hello@brianfaust.me. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to hello@basecode.sh. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 
@@ -155,4 +155,4 @@ If you discover a security vulnerability within this package, please send an e-m
 
 ## License
 
-[MIT](LICENSE) © [Brian Faust](https://brianfaust.me)
+[MIT](LICENSE) © [Brian Faust](https://basecode.sh)
